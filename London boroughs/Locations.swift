@@ -20,6 +20,16 @@ struct Location {
 
 let camden = Location(title: "Camden", image: UIImage(named: "candem")!, links: [camdenLinks])
 
+let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: [croydonLinks])
+
+let hackney = Location(title: "Hackney", image: UIImage(named: "croydon"), links: [hackneyLinks])
+
+
+let KensingtonAndChelsea = Location(title: "Kensington & Chelsea", image: UIImage(named: "ken&chelsea"), links: [kensingtonAndChelseaLinks])
+
+
+
+
 
 
 
