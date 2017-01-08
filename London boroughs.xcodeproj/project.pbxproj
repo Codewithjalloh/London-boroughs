@@ -16,6 +16,8 @@
 		58CCABFD1E22B1FC00732CAC /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCABFC1E22B1FC00732CAC /* Links.swift */; };
 		58CCAC001E22B8C400732CAC /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCABFF1E22B8C400732CAC /* DetailsTableViewCell.swift */; };
 		58CCAC041E22B9B200732CAC /* BoroughCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCAC031E22B9B200732CAC /* BoroughCollectionViewCell.swift */; };
+		58CCAC061E22BA6D00732CAC /* BoroughCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCAC051E22BA6D00732CAC /* BoroughCollectionViewController.swift */; };
+		58CCAC081E22BA9900732CAC /* BoroughLinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCAC071E22BA9900732CAC /* BoroughLinksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		58CCABFC1E22B1FC00732CAC /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		58CCABFF1E22B8C400732CAC /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		58CCAC031E22B9B200732CAC /* BoroughCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoroughCollectionViewCell.swift; sourceTree = "<group>"; };
+		58CCAC051E22BA6D00732CAC /* BoroughCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoroughCollectionViewController.swift; sourceTree = "<group>"; };
+		58CCAC071E22BA9900732CAC /* BoroughLinksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoroughLinksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				58CCABF71E22B1A400732CAC /* Model */,
 				58CCABE51E22AA4900732CAC /* AppDelegate.swift */,
 				58CCABE91E22AA4900732CAC /* Main.storyboard */,
+				58CCAC071E22BA9900732CAC /* BoroughLinksTableViewController.swift */,
+				58CCAC051E22BA6D00732CAC /* BoroughCollectionViewController.swift */,
 				58CCABEC1E22AA4900732CAC /* Assets.xcassets */,
 				58CCABEE1E22AA4900732CAC /* LaunchScreen.storyboard */,
 				58CCABF11E22AA4900732CAC /* Info.plist */,
@@ -169,7 +175,9 @@
 				58CCAC041E22B9B200732CAC /* BoroughCollectionViewCell.swift in Sources */,
 				58CCAC001E22B8C400732CAC /* DetailsTableViewCell.swift in Sources */,
 				58CCABF91E22B1E200732CAC /* LocationController.swift in Sources */,
+				58CCAC061E22BA6D00732CAC /* BoroughCollectionViewController.swift in Sources */,
 				58CCABE61E22AA4900732CAC /* AppDelegate.swift in Sources */,
+				58CCAC081E22BA9900732CAC /* BoroughLinksTableViewController.swift in Sources */,
 				58CCABFD1E22B1FC00732CAC /* Links.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

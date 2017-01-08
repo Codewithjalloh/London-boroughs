@@ -13,8 +13,8 @@
         <!--London-boroughs-->
         <scene sceneID="UHQ-Tl-HTj">
             <objects>
-                <collectionViewController id="zBy-7b-McJ" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="y55-oL-8nl">
+                <collectionViewController id="zBy-7b-McJ" customClass="BoroughCollectionViewController" customModule="London_boroughs" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="y55-oL-8nl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -25,7 +25,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LocationCell" id="lK3-Hi-7qg">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BoroughCell" id="lK3-Hi-7qg" customClass="BoroughCollectionViewCell" customModule="London_boroughs" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -54,7 +54,9 @@
                                 </constraints>
                                 <size key="customSize" width="180" height="180"/>
                                 <connections>
-                                    <segue destination="h0X-eb-Gc8" kind="show" identifier="ShowFacts" id="CpE-oJ-N8W"/>
+                                    <outlet property="boroughImage" destination="LXf-B7-nyb" id="zbE-S9-CNb"/>
+                                    <outlet property="boroughTitle" destination="0tE-tz-aoj" id="46j-sS-x9R"/>
+                                    <segue destination="h0X-eb-Gc8" kind="show" identifier="boroughLinks" id="CpE-oJ-N8W"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -82,7 +84,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="acY-yC-uLR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="acY-yC-uLR" customClass="DetailsTableViewCell" customModule="London_boroughs" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="230" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="acY-yC-uLR" id="UjS-CW-5dZ">
@@ -103,6 +105,9 @@
                                         <constraint firstItem="T6G-kL-Dcb" firstAttribute="trailing" secondItem="UjS-CW-5dZ" secondAttribute="trailingMargin" id="kaj-Xg-bV9"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="linkLabel" destination="T6G-kL-Dcb" id="3ls-SL-NnV"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
