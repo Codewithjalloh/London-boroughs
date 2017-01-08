@@ -14,6 +14,8 @@
 		58CCABF91E22B1E200732CAC /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCABF81E22B1E200732CAC /* LocationController.swift */; };
 		58CCABFB1E22B1EE00732CAC /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCABFA1E22B1EE00732CAC /* Locations.swift */; };
 		58CCABFD1E22B1FC00732CAC /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCABFC1E22B1FC00732CAC /* Links.swift */; };
+		58CCAC001E22B8C400732CAC /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCABFF1E22B8C400732CAC /* DetailsTableViewCell.swift */; };
+		58CCAC041E22B9B200732CAC /* BoroughCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CCAC031E22B9B200732CAC /* BoroughCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		58CCABF81E22B1E200732CAC /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 		58CCABFA1E22B1EE00732CAC /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		58CCABFC1E22B1FC00732CAC /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		58CCABFF1E22B8C400732CAC /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		58CCAC031E22B9B200732CAC /* BoroughCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoroughCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		58CCABE41E22AA4900732CAC /* London boroughs */ = {
 			isa = PBXGroup;
 			children = (
+				58CCABFE1E22B89700732CAC /* Cells */,
 				58CCABF71E22B1A400732CAC /* Model */,
 				58CCABE51E22AA4900732CAC /* AppDelegate.swift */,
 				58CCABE91E22AA4900732CAC /* Main.storyboard */,
@@ -76,6 +81,15 @@
 				58CCABFC1E22B1FC00732CAC /* Links.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		58CCABFE1E22B89700732CAC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				58CCABFF1E22B8C400732CAC /* DetailsTableViewCell.swift */,
+				58CCAC031E22B9B200732CAC /* BoroughCollectionViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				58CCABFB1E22B1EE00732CAC /* Locations.swift in Sources */,
+				58CCAC041E22B9B200732CAC /* BoroughCollectionViewCell.swift in Sources */,
+				58CCAC001E22B8C400732CAC /* DetailsTableViewCell.swift in Sources */,
 				58CCABF91E22B1E200732CAC /* LocationController.swift in Sources */,
 				58CCABE61E22AA4900732CAC /* AppDelegate.swift in Sources */,
 				58CCABFD1E22B1FC00732CAC /* Links.swift in Sources */,
