@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+
+
+var camdenLinks = ["":""]
+var croydonLinks = ["":""]
+var hackneyLinks = ["":""]
+var kensingtonAndChelseaLinks = ["":""]
+var lambethLinks = ["":""]
+

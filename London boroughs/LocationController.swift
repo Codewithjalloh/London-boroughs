@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+
+var locations = [camdenLinks, croydonLinks, hackneyLinks, kensingtonAndChelseaLinks, lambethLinks]

@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+struct Location {
+    
+    let title: String
+    let image: UIImage!
+    let links: [Dictionary<String, String>]
+}
+
+// Borought
+
+let camden = Location(title: "Camden", image: UIImage(named: "candem")!, links: [camdenLinks])
+
+
+
+
+
