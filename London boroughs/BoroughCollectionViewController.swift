@@ -18,32 +18,7 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
     }
 
     
-    // MARK: UICollectionViewDataSource
-    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
-        return locations.count
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! BoroughCollectionViewCell
-        
-        cell.boroughImage.image = locations[indexPath.row].image
-        cell.boroughTitle.text = locations[indexPath.row].title
-        
-        
-        cell.layer.cornerRadius = 1.0
-        cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
-        cell.layer.shadowRadius = 1.0
-        cell.layer.shadowOpacity = 0.5
-        cell.layer.masksToBounds = false
-    
-        return cell
-    }
-    
-    
-    
+   
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         
@@ -61,8 +36,39 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
         
         
     }
+
     
     
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! BoroughCollectionViewCell
+        
+        
+        cell.boroughImage.image = locations[indexPath.row].image
+        cell.boroughTitle.text = locations[indexPath.row].title
+        
+        
+        cell.layer.cornerRadius = 1.0
+        cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+        cell.layer.shadowRadius = 1.0
+        cell.layer.shadowOpacity = 0.5
+        cell.layer.masksToBounds = false
+    
+        return cell
+    }
+    
+    
+    
+  
+    
+    
+    
+    // MARK: UICollectionViewDataSource
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of items
+        return locations.count
+    }
     
   
      // MARK: - Navigation
@@ -72,14 +78,17 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
         
         
         if segue.identifier == "boroughLinks" {
-            let boroughVC = segue.destination as! BoroughLinksTableViewController
+            
+            let boroughViewController = segue.destination as! BoroughLinksTableViewController
+            
             let cell = sender as! BoroughCollectionViewCell
+            
             let indexPath = self.collectionView?.indexPath(for: cell)
             
             
-            boroughVC.image = locations[(indexPath?.row)!].image
-            boroughVC.links = locations[(indexPath?.row)!].links
-            boroughVC.locationLinksTitle = locations[(indexPath?.row)!].title.uppercased()
+            boroughViewController.image = locations[(indexPath?.row)!].image
+            boroughViewController.links = locations[(indexPath?.row)!].links
+            boroughViewController.locationLinksTitle = locations[(indexPath?.row)!].title.uppercased()
             
         }
         
