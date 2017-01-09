@@ -20,13 +20,13 @@ let camden = Location(title: "Camden", image: UIImage(named: "camden")!, links:c
 
 let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: croydonLinks)
 
-let hackney = Location(title: "Hackney", image: UIImage(named: "croydon")!, links: hackneyLinks)
+let hackney = Location(title: "Hackney", image: UIImage(named: "hackney")!, links: hackneyLinks)
 
 
 let KensingtonAndChelsea = Location(title: "Kens & Chelsea", image: UIImage(named: "ken&chelsea")!, links: kensingtonAndChelseaLinks)
 
 
-let lambeth = Location(title: "lambeth", image: UIImage(named: "lambeth")!, links: lambethLinks)
+let lambeth = Location(title: "Lambeth", image: UIImage(named: "lambeth")!, links: lambethLinks)
 
 
 
