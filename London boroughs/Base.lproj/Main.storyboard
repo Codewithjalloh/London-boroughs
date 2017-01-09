@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7L5-Rc-fEg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="1085.5999999999999" y="91.304347826086968"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Borough Links Table View Controller-->
         <scene sceneID="lBg-ES-W6z">
             <objects>
-                <tableViewController id="h0X-eb-Gc8" sceneMemberID="viewController">
+                <tableViewController id="h0X-eb-Gc8" customClass="BoroughLinksTableViewController" customModule="London_boroughs" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="50" sectionFooterHeight="50" id="B5d-vV-82s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,7 +84,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="acY-yC-uLR" customClass="DetailsTableViewCell" customModule="London_boroughs" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LinkCell" id="acY-yC-uLR" customClass="DetailsTableViewCell" customModule="London_boroughs" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="230" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="acY-yC-uLR" id="UjS-CW-5dZ">
@@ -115,6 +115,9 @@
                             <outlet property="delegate" destination="h0X-eb-Gc8" id="LT0-4a-6Pb"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="headerImage" destination="4vH-Fd-nfb" id="nST-IQ-D4h"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhe-W0-cbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

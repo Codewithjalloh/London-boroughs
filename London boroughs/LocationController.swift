@@ -9,4 +9,4 @@
 import Foundation
 
 
-var locations = [camdenLinks, croydonLinks, hackneyLinks, kensingtonAndChelseaLinks, lambethLinks]
+var locations = [camden, croydon, hackney, KensingtonAndChelsea, lambeth]
