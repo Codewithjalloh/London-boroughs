@@ -15,6 +15,7 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
     // first load func
     override func viewDidLoad() {
         super.viewDidLoad()
+    
     }
 
     
@@ -27,7 +28,7 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
         var numberOfCellsInRow: Double
         
         numberOfCellsInRow = Double(screenSize / divisor)
-        print("The numberOfCellInRow is \(numberOfCellsInRow)")
+      
         
         
         let cellWidth = screenSize / CGFloat(numberOfCellsInRow)
@@ -36,7 +37,17 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
         
         
     }
-
+ 
+    /*
+    func layoutCells() {
+        let layout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 10, right: 10)
+        layout.minimumInteritemSpacing = 5.0
+        layout.minimumLineSpacing = 5.0
+        layout.itemSize = CGSize(width: (UIScreen.main.bounds.size.width - 40)/3, height: ((UIScreen.main.bounds.size.width - 40)/3))
+        collectionView!.collectionViewLayout = layout
+    }
+*/
     
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -69,6 +80,8 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
         // #warning Incomplete implementation, return the number of items
         return locations.count
     }
+    
+
     
   
      // MARK: - Navigation

@@ -31,7 +31,7 @@ let lambeth = Location(title: "Lambeth", image: UIImage(named: "lambeth")!, link
 let greenwich = Location(title: "Greenwich", image: UIImage(named: "greenwich")!, links: greenwichLinks)
 
 
-let hammersmith = Location(title: "Hammersmith", image: UIImage(named: "hammersmith")!, links: hammersmithLinks)
+let hammersmith = Location(title: "Hammersmith", image: UIImage(named: "Hammersmith")!, links: hammersmithLinks)
 
 
 let islington = Location(title: "Islington", image: UIImage(named: "islington")!, links: islingtonLinks)
