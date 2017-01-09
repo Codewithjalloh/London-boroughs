@@ -28,6 +28,17 @@ let KensingtonAndChelsea = Location(title: "Kens & Chelsea", image: UIImage(name
 
 let lambeth = Location(title: "Lambeth", image: UIImage(named: "lambeth")!, links: lambethLinks)
 
+let greenwich = Location(title: "Greenwich", image: UIImage(named: "greenwich")!, links: greenwichLinks)
+
+
+let hammersmith = Location(title: "Hammersmith", image: UIImage(named: "hammersmith")!, links: hammersmithLinks)
+
+
+let islington = Location(title: "Islington", image: UIImage(named: "islington")!, links: islingtonLinks)
+
+
+
+
 
 
 

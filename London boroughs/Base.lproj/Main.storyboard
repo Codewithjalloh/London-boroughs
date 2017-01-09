@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--London-boroughs-->
+        <!--London Boroughs-->
         <scene sceneID="UHQ-Tl-HTj">
             <objects>
                 <collectionViewController id="zBy-7b-McJ" customClass="BoroughCollectionViewController" customModule="London_boroughs" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="y55-oL-8nl">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="y55-oL-8nl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -65,7 +65,7 @@
                             <outlet property="delegate" destination="zBy-7b-McJ" id="zFs-Fd-8gb"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="London-boroughs" id="4VO-Gq-Iok"/>
+                    <navigationItem key="navigationItem" title="London Boroughs" id="4VO-Gq-Iok"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rc5-Xe-cJZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,12 +80,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="4vH-Fd-nfb">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="132"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LinkCell" id="acY-yC-uLR" customClass="DetailsTableViewCell" customModule="London_boroughs" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="230" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="182" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="acY-yC-uLR" id="UjS-CW-5dZ">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
