@@ -9,10 +9,18 @@
 import Foundation
 
 
+var barkingLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
+
+var barnetLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
+
+
 
 var camdenLinks = [
     ["The History of Camden": "https://en.wikipedia.org/wiki/London_Borough_of_Camden"],
     ["The History of Camden ": "https://en.wikipedia.org/wiki/London_Borough_of_Camden"] ]
+
 
 
 var croydonLinks = [
@@ -20,10 +28,20 @@ var croydonLinks = [
 ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
 
 
+var greenwichLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
 
 
 var hackneyLinks = [
     ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]
+]
+
+
+var hammersmithLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
+
+var islingtonLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]
 ]
 
 
@@ -33,23 +51,24 @@ var kensingtonAndChelseaLinks = [
 
 
 var lambethLinks = [
-    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]
-]
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
-var greenwichLinks = [
-    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]
-]
+var lewishamLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
-var islingtonLinks = [
-    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]
-]
+var southwarkLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
-var hammersmithLinks = [
-    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]
-]
+var towelhamletsLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
+var wandsworthLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
+
+var westministerLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
