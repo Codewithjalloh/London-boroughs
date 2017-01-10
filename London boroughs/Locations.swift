@@ -36,6 +36,10 @@ let hammersmith = Location(title: "Hammersmith", image: UIImage(named: "Hammersm
 
 let islington = Location(title: "Islington", image: UIImage(named: "islington")!, links: islingtonLinks)
 
+let lewisham = Location(title: "Lewisham", image: "lewisham", links: lewishamLinks)
+
+
+
 
 
 

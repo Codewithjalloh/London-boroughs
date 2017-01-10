@@ -15,6 +15,7 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
     // first load func
     override func viewDidLoad() {
         super.viewDidLoad()
+        //layoutCells()
     
     }
 
@@ -47,9 +48,10 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
         layout.itemSize = CGSize(width: (UIScreen.main.bounds.size.width - 40)/3, height: ((UIScreen.main.bounds.size.width - 40)/3))
         collectionView!.collectionViewLayout = layout
     }
-*/
+
+    */
     
-    
+   
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         
@@ -68,7 +70,7 @@ class BoroughCollectionViewController: UICollectionViewController, UICollectionV
     
         return cell
     }
-    
+  
     
     
   
