@@ -44,8 +44,10 @@ let southwark = Location(title: "Southwark", image: UIImage(named:"southwark")!,
 
 let towerHamlets = Location(title: "Tower Hamlets", image: UIImage(named:"towerhamlets")!, links: towelhamletsLinks)
 
-let wandsworth = Location(title: "Wandsworth", image: UIImage(named:"wandsworth"), links: wandsworthLinks)
+let wandsworth = Location(title: "Wandsworth", image: UIImage(named:"wandsworth")!, links: wandsworthLinks)
 
+
+let westminister = Location(title: "Westminister", image: UIImage(named:"westminster")!, links: westministerLinks)
 
 
 
