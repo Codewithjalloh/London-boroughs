@@ -42,6 +42,10 @@ let lewisham = Location(title: "Lewisham", image:UIImage(named:"lewisham")!, lin
 
 let southwark = Location(title: "Southwark", image: UIImage(named:"southwark")!, links: southwarkLinks)
 
+let towerHamlets = Location(title: "Tower Hamlets", image: UIImage(named:"towerhamlets")!, links: towelhamletsLinks)
+
+
+
 
 
 
