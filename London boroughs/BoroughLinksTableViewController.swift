@@ -26,8 +26,11 @@ class BoroughLinksTableViewController: UITableViewController, SFSafariViewContro
         headerImage.image = image
         navigationItem.title = locationLinksTitle
         
+        self.automaticallyAdjustsScrollViewInsets = false 
+        
         navigationController?.navigationBar.tintColor = .black
         
+        tableView.backgroundColor = UIColor.red
         
 
         
