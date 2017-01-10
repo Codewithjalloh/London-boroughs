@@ -19,6 +19,8 @@ struct Location {
 
 let barking = Location(title: "Barking", image: UIImage(named: "barking")!, links: barkingLinks)
 
+
+
 let camden = Location(title: "Camden", image: UIImage(named: "camden")!, links:camdenLinks)
 
 let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: croydonLinks)
@@ -39,7 +41,7 @@ let hammersmith = Location(title: "Hammersmith", image: UIImage(named: "Hammersm
 
 let islington = Location(title: "Islington", image: UIImage(named: "islington")!, links: islingtonLinks)
 
-let lewisham = Location(title: "Lewisham", image: "lewisham", links: lewishamLinks)
+let lewisham = Location(title: "Lewisham", image:UIImage(named:"lewisham")!, links: lewishamLinks)
 
 
 
