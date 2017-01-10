@@ -9,4 +9,4 @@
 import Foundation
 
 
-var locations = [camden, croydon, hackney, KensingtonAndChelsea, lambeth, islington, hammersmith, greenwich]
+var locations = [barking, barnet, camden, croydon, greenwich,  hackney, hammersmith, islington, KensingtonAndChelsea, lambeth, lewisham, southwark, towerHamlets, wandsworth, westminister ]
