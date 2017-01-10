@@ -16,6 +16,9 @@ struct Location {
 }
 // Borought
 
+
+let barking = Location(title: "Barking", image: UIImage(named: "barking")!, links: barkingLinks)
+
 let camden = Location(title: "Camden", image: UIImage(named: "camden")!, links:camdenLinks)
 
 let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: croydonLinks)
