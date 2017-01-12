@@ -44,6 +44,10 @@ var ealingLinks = [
     ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"],
     ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
 
+var enfieldLinks = [
+    ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"],
+    ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
+
 
 
 var greenwichLinks = [
