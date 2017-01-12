@@ -62,7 +62,10 @@ var hackneyLinks = [
 ]
 
 var harrowLinks = [
-    ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]
+    ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]]
+
+var haveringLinks =  [
+    ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]]
 
 var hammersmithLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
