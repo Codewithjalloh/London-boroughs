@@ -29,6 +29,7 @@ var bromleyLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
+
 var camdenLinks = [
     ["The History of Camden": "https://en.wikipedia.org/wiki/London_Borough_of_Camden"],
     ["The History of Camden ": "https://en.wikipedia.org/wiki/London_Borough_of_Camden"] ]
@@ -38,6 +39,11 @@ var camdenLinks = [
 var croydonLinks = [
     ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"],
 ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
+
+var ealingLinks = [
+    ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"],
+    ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
+
 
 
 var greenwichLinks = [
