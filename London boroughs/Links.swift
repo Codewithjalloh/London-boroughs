@@ -15,6 +15,10 @@ var barkingLinks = [
 var barnetLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
+var bexleyLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
+
+
 
 
 var camdenLinks = [
@@ -70,5 +74,8 @@ var wandsworthLinks = [
 
 var westministerLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
+
+
+
 
 
