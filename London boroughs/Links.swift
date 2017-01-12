@@ -6,7 +6,7 @@
 //  Copyright © 2017 CWJ. All rights reserved.
 //
 
-// update links class for bexley borough
+// update links for bexley borough
 
 import Foundation
 
@@ -69,6 +69,10 @@ var haveringLinks =  [
 
 var hilingdonLinks =  [
     ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]]
+
+var hounslowLinks = [
+    ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]]
+
 
 
 var hammersmithLinks = [
