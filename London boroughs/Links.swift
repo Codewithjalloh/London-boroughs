@@ -6,6 +6,8 @@
 //  Copyright © 2017 CWJ. All rights reserved.
 //
 
+// update links class for bexley borough
+
 import Foundation
 
 
@@ -16,6 +18,10 @@ var barnetLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 var bexleyLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
+
+
+var brentLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
