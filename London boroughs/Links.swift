@@ -75,6 +75,8 @@ var hounslowLinks = [
 
 
 
+
+
 var hammersmithLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
 
@@ -86,6 +88,12 @@ var islingtonLinks = [
 
 var kensingtonAndChelseaLinks = [
     ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"], ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"] ]
+
+
+
+var kingstonUponThames = [
+    ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"], ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"] ]
+
 
 
 var lambethLinks = [
