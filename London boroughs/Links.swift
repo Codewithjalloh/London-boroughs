@@ -95,20 +95,20 @@ var kingstonUponThames = [
     ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"], ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"] ]
 
 
-var merton = [
+var mertonLinks = [
     ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"], ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"] ]
 
 
-var newham = [
+var newhamLinks = [
     ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"], ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"] ]
 
 
 
-var redbridge =  [
+var redbridgeLinks =  [
     ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"], ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"] ]
 
 
-var richmondUponThames = [
+var richmondUponThamesLinks = [
     ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"], ["Royal Borough of Kensington and Chelsea": "https://en.wikipedia.org/wiki/Royal_Borough_of_Kensington_and_Chelsea"] ]
 
 
@@ -124,7 +124,7 @@ var lewishamLinks = [
 var southwarkLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
-var sutton = [
+var suttonLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
@@ -138,7 +138,7 @@ var wandsworthLinks = [
 var westministerLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
-var walthamForest = [
+var walthamForestLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"] ]
 
 
