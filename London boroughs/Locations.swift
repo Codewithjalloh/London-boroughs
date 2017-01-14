@@ -56,6 +56,14 @@ let merton = Location(title: "Merton", image: UIImage(named:"merton")!, links: m
 
 let newham = Location(title: "Newham", image: UIImage(named:"newhan")!, links: newhamLinks)
 
+
+let redbridge = Location(title: "Redbridge", image: UIImage(named:"redbridge")!, links: redbridgeLinks)
+
+
+
+
+
+
 let southwark = Location(title: "Southwark", image: UIImage(named:"southwark")!, links: southwarkLinks)
 
 let towerHamlets = Location(title: "Tower Hamlets", image: UIImage(named:"towerhamlets")!, links: towelhamletsLinks)
