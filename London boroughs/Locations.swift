@@ -17,6 +17,9 @@ struct Location {
 // Borought
 
 
+// hounslow borough added to locations.swift
+
+
 let barking = Location(title: "Barking", image: UIImage(named: "barking")!, links: barkingLinks)
 
 let barnet = Location(title: "Barnet", image: UIImage(named:"barnet")!, links: barkingLinks)
@@ -37,6 +40,8 @@ let hounslow = Location(title: "Hounslow", image: UIImage(named:"hounslow")!, li
 
 
 
+
+
 let islington = Location(title: "Islington", image: UIImage(named: "islington")!, links: islingtonLinks)
 
 let KensingtonAndChelsea = Location(title: "Kens & Chelsea", image: UIImage(named: "ken&chelsea")!, links: kensingtonAndChelseaLinks)
@@ -45,6 +50,11 @@ let KensingtonAndChelsea = Location(title: "Kens & Chelsea", image: UIImage(name
 let lambeth = Location(title: "Lambeth", image: UIImage(named: "lambeth")!, links: lambethLinks)
 
 let lewisham = Location(title: "Lewisham", image:UIImage(named:"lewisham")!, links: lewishamLinks)
+
+
+let merton = Location(title: "Merton", image: UIImage(named:"merton")!, links: mertonLinks)
+
+let newham = Location(title: "Newham", image: UIImage(named:"newhan")!, links: newhamLinks)
 
 let southwark = Location(title: "Southwark", image: UIImage(named:"southwark")!, links: southwarkLinks)
 
