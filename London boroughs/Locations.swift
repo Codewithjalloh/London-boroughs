@@ -31,6 +31,12 @@ let hackney = Location(title: "Hackney", image: UIImage(named: "hackney")!, link
 
 let hammersmith = Location(title: "Hammersmith", image: UIImage(named: "Hammersmith")!, links: hammersmithLinks)
 
+
+let hounslow = Location(title: "Hounslow", image: UIImage(named:"hounslow")!, links: hounslowLinks)
+
+
+
+
 let islington = Location(title: "Islington", image: UIImage(named: "islington")!, links: islingtonLinks)
 
 let KensingtonAndChelsea = Location(title: "Kens & Chelsea", image: UIImage(named: "ken&chelsea")!, links: kensingtonAndChelseaLinks)
@@ -48,6 +54,10 @@ let wandsworth = Location(title: "Wandsworth", image: UIImage(named:"wandsworth"
 
 
 let westminister = Location(title: "Westminister", image: UIImage(named:"westminster")!, links: westministerLinks)
+
+
+
+
 
 
 
