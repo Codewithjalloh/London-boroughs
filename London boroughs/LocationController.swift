@@ -11,4 +11,4 @@ import Foundation
 
 // update locations borough
 
-var locations = [barking, barnet, camden, croydon, greenwich,  hackney, hammersmith, islington, KensingtonAndChelsea, lambeth, lewisham, southwark, towerHamlets, wandsworth, westminister, sutton, hounslow, merton ]
+var locations = [barking, barnet, camden, croydon, greenwich,  hackney, hammersmith, islington, KensingtonAndChelsea, lambeth, lewisham, southwark, towerHamlets, wandsworth, westminister, sutton, hounslow, merton, newham ]
