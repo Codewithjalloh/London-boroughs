@@ -27,6 +27,9 @@ let barnet = Location(title: "Barnet", image: UIImage(named:"barnet")!, links: b
 
 let bexley = Location(title: "Bexley", image: UIImage(named:"bexley")!, links: bexleyLinks)
 
+let brent = Location(title: "Brent", image: UIImage(named:"brent")!, links: brentLinks)
+
+
 let camden = Location(title: "Camden", image: UIImage(named: "camden")!, links:camdenLinks)
 
 let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: croydonLinks)
