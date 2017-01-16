@@ -78,12 +78,13 @@ let wandsworth = Location(title: "Wandsworth", image: UIImage(named:"wandsworth"
 
 let westminister = Location(title: "Westminister", image: UIImage(named:"westminster")!, links: westministerLinks)
 
+let walthamforst = Location(title: "Waltham Forest", image: UIImage(named:"sadderSwipeGestureRecognizer")!, links: walthamForestLinks)
 
 
 
 
 
-
+// hounslow borough added to locations.swift
 
 
 
