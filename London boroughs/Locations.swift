@@ -60,6 +60,9 @@ let newham = Location(title: "Newham", image: UIImage(named:"newhan")!, links: n
 let redbridge = Location(title: "Redbridge", image: UIImage(named:"redbridge")!, links: redbridgeLinks)
 
 
+let richmondUponThames = Location(title: "Richmond Upon Thames", image: UIImage(named:"richmond")!, links: richmondUponThamesLinks)
+
+
 let sutton = Location(title: "Sutton", image: UIImage(named:"sutton")!, links: suttonLinks)
 
 
