@@ -54,7 +54,7 @@ let lewisham = Location(title: "Lewisham", image:UIImage(named:"lewisham")!, lin
 
 let merton = Location(title: "Merton", image: UIImage(named:"merton")!, links: mertonLinks)
 
-let newham = Location(title: "Newham", image: UIImage(named:"newhan")!, links: newhamLinks)
+let newham = Location(title: "Newham", image: UIImage(named:"newham")!, links: newhamLinks)
 
 
 let redbridge = Location(title: "Redbridge", image: UIImage(named:"redbridge")!, links: redbridgeLinks)
@@ -81,7 +81,7 @@ let wandsworth = Location(title: "Wandsworth", image: UIImage(named:"wandsworth"
 
 let westminister = Location(title: "Westminister", image: UIImage(named:"westminster")!, links: westministerLinks)
 
-let walthamforst = Location(title: "Waltham Forest", image: UIImage(named:"sadderSwipeGestureRecognizer")!, links: walthamForestLinks)
+let walthamforst = Location(title: "Waltham Forest", image: UIImage(named:"walthamforst")!, links: walthamForestLinks)
 
 
 
