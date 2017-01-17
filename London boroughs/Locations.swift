@@ -62,6 +62,7 @@ let haringey = Location(title: "haringey", image: UIImage(named: "haringey")!, l
 let harrow = Location(title: "Harrow", image: UIImage(named: "harrow")!, links: harrowLinks)
 
 
+let havering = Location(title: "Havering", image: UIImage(named: "havering")!, links: haveringLinks)
 
 
 
