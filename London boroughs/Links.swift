@@ -40,6 +40,13 @@ var croydonLinks = [
     ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"],
 ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
 
+
+var cityOfLondon =  [
+    ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"],
+    ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
+
+
+
 var ealingLinks = [
     ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"],
     ["The History of Croydon": "https://en.wikipedia.org/wiki/London_Borough_of_Croydon"] ]
