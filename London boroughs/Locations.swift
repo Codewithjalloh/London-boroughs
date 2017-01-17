@@ -43,6 +43,12 @@ let cityOfwestminister = Location(title: "City of Westminister", image: UIImage(
 
 let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: croydonLinks)
 
+let ealing = Location(title: "Ealing", image: UIImage(named: "ealing")!, links: ealingLinks)
+
+
+//let enfield = Location(title: "Enfield", image: UIImage(named: "enfield")!, links: enfieldLinks)
+
+
 let greenwich = Location(title: "Greenwich", image: UIImage(named: "greenwich")!, links: greenwichLinks)
 
 let hackney = Location(title: "Hackney", image: UIImage(named: "hackney")!, links: hackneyLinks)
