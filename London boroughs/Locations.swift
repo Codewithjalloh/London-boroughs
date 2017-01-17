@@ -59,6 +59,8 @@ let hammersmith = Location(title: "Hammersmith", image: UIImage(named: "Hammersm
 
 let haringey = Location(title: "haringey", image: UIImage(named: "haringey")!, links: haringeyLinks)
 
+let harrow = Location(title: "Harrow", image: UIImage(named: "harrow")!, links: harrowLinks)
+
 
 
 
