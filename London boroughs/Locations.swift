@@ -34,6 +34,8 @@ let bromley = Location(title: "Bromley", image: UIImage(named:"bromley")!, links
 
 let camden = Location(title: "Camden", image: UIImage(named: "camden")!, links:camdenLinks)
 
+let cityOfLondon = Location(title: "City Of London", image: UIImage(named:"cityoflondon")!, links: cityOfLondonLinks)
+
 let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: croydonLinks)
 
 let greenwich = Location(title: "Greenwich", image: UIImage(named: "greenwich")!, links: greenwichLinks)
