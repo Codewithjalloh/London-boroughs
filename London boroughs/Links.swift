@@ -61,13 +61,19 @@ var enfieldLinks = [
 var greenwichLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
 
-var haringeyLinks = [
-    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
-
 
 var hackneyLinks = [
     ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]
 ]
+
+
+var hammersmithLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
+
+
+
+var haringeyLinks = [
+    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
 
 var harrowLinks = [
     ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]]
@@ -75,7 +81,7 @@ var harrowLinks = [
 var haveringLinks =  [
     ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]]
 
-var hilingdonLinks =  [
+var hillingdonLinks =  [
     ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"], ["The History of Hackney": "https://en.wikipedia.org/wiki/London_Borough_of_Hackney"]]
 
 var hounslowLinks = [
@@ -83,10 +89,6 @@ var hounslowLinks = [
 
 
 
-
-
-var hammersmithLinks = [
-    ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]]
 
 var islingtonLinks = [
     ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"], ["The History of Lambeth": "https://en.wikipedia.org/wiki/London_Borough_of_Lambeth"]
