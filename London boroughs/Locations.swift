@@ -36,6 +36,11 @@ let camden = Location(title: "Camden", image: UIImage(named: "camden")!, links:c
 
 let cityOfLondon = Location(title: "City Of London", image: UIImage(named:"cityoflondon")!, links: cityOfLondonLinks)
 
+
+let cityOfwestminister = Location(title: "City of Westminister", image: UIImage(named:"westminster")!, links: cityOfWestministerLinks)
+
+
+
 let croydon = Location(title: "Croydon", image: UIImage(named: "croydon")!, links: croydonLinks)
 
 let greenwich = Location(title: "Greenwich", image: UIImage(named: "greenwich")!, links: greenwichLinks)
@@ -89,7 +94,6 @@ let towerHamlets = Location(title: "Tower Hamlets", image: UIImage(named:"towerh
 let wandsworth = Location(title: "Wandsworth", image: UIImage(named:"wandsworth")!, links: wandsworthLinks)
 
 
-let westminister = Location(title: "Westminister", image: UIImage(named:"westminster")!, links: westministerLinks)
 
 let walthamforst = Location(title: "Waltham Forest", image: UIImage(named:"walthamforst")!, links: walthamForestLinks)
 
